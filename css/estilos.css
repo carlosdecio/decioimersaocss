@@ -130,7 +130,7 @@ a:hover {
   height: 180px;
   width: 240px;
   object-fit: cover;
-  object-position: center bottom; /* left bottom*/
+  object-position: left bottom; /* left bottom*/
 }
 
 
