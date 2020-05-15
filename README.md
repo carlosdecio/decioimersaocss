@@ -1,2 +1,2 @@
 # decioimersaocss
-Site utilizando html e css
+Site do Curso Online Imersão CSS - Alura - Utilizando html e css.
