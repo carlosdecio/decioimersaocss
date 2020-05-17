@@ -11,7 +11,7 @@
 <body>
   <header> 
     <nav class="menu"> 
-      <ul> 
+      <ul class="container"> 
         <li><a href="#sobre">Sobre</a></li> 
         <li><a href="#portfolio">Projetos</a></li> 
         <li><a href="#contato">Contato</a></li> 
@@ -21,18 +21,52 @@
       <h1 class="site-title">Carlos Décio</h1> 
       <h2 class="site-subtitle">Frontend Web Developer</h2>
     </div>
-  </header>   
-  <section class="portfolio" id="portfolio">
+  </header>
+  <section class="sobre container" id="sobre">
+    <h2>Sobre</h2>
+
+    <figure class="avatar">
+      <img src="img/foto-disney.jpg" alt="Carlos Décio">
+    </figure>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum iste distinctio magnam iusto. Quidem reprehenderit quia tempora officiis inventore culpa veritatis dolorum enim tempore, aliquid, voluptatem cumque? Dignissimos, labore est!
+    </p>
+    <p>
+      Sint qui saepe maiores nisi itaque eaque ipsum. Hic qui quaerat similique commodi expedita vel eum dolore aliquam cumque distinctio provident iure illum, magni labore fuga facilis minus tempore. Esse.
+    </p>
+    <p>
+      Nihil neque dignissimos numquam adipisci corrupti debitis delectus veritatis blanditiis, laboriosam voluptatem sapiente necessitatibus consectetur alias ab dolorem modi voluptas ullam quod eaque non dolorum minus voluptates sed repellat. Enim.
+    </p>
+    <p>
+      Este site foi construído durante a <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a>, foi uma ótima semana de conhecimento e produtividade com html e css, pois aprendemos muito sobre CSS com a Alura e grandes instrutores. Parabéns pela iniciativa da Alura.
+    </p>
+  </section>   
+  <section class="portfolio container" id="portfolio">
     <h2>Projetos de Estudos</h2>
     <div class="grid">
-      <figure>
-        <img class="img-portfolio" src="./img/javascript.png" alt="JavaScript">
-        <figcaption>JavaScript</figcaption>
-      </figure>
-      <figure>
-        <img class="img-portfolio" src="./img/react.png" alt=">ReactJS">
-        <figcaption>ReactJS</figcaption>
-      </figure>
+      
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-portfolio" src="./img/javascript.png" alt="JavaScript">
+            <figcaption>JavaScript</figcaption>
+          </figure>
+          <div class="card-back">
+            Estudar JavaScript em vídeo aulas e livros.
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-portfolio" src="./img/react.png" alt=">ReactJS">
+          <figcaption>ReactJS</figcaption>
+          </figure>
+          <div class="card-back">
+            Estudar ReactJS em vídeo aulas e livros.
+          </div>
+        </div>
+      </div>
       <figure>
         <img class="img-portfolio" src="./img/reactnative.jpeg" alt="React Native">
         <figcaption>React Native</figcaption>
@@ -44,7 +78,7 @@
     </div>
     
   </section>
-  <section class="contato" id="contato">
+  <section class="contato container" id="contato">
 		<h2>Contato</h2>
 	
 		<div class="grid icons">
